@@ -1,0 +1,53 @@
+.search-section {
+  margin-bottom: 20px;
+}
+
+#cityInput {
+  padding: 10px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+#cityInput:focus {
+  border: 2px solid #fff;
+}
+
+#searchBtn {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  background-color: #ffffff;
+}
+
+#searchBtn:hover {
+  background-color: #ddd;
+}
+
+.error {
+  color: #ffdddd;
+  font-weight: bold;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 20px auto;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.error {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-top: 15px;
+}
